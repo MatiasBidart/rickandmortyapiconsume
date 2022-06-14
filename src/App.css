@@ -1,7 +1,14 @@
 .App {
   text-align: center;
+  background-color: rgb(57, 136, 81);
+  color: white;
 }
-
+li{
+  list-style: none;
+}
+.wdth-100{
+  width: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +42,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+.mrgn-bttm-2{
+  margin-bottom: 3.5rem;
+}
+.flx-drctn-rw{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+}
+.rsdnts-grd{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+}
+.wdth-4rem{
+  max-width: 20rem;
 }
